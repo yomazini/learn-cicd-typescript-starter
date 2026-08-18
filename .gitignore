@@ -4,3 +4,9 @@ dist/
 .env
 .vscode
 NOTES.md
+google-cloud-sdk/
+*.tar.gz
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
