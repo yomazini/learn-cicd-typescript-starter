@@ -42,6 +42,10 @@ if (db) {
 
 v1Router.get("/healthz", handlerReadiness);
 
+v1Router.get("/health", (_req, res) => {
+  res.json({ status: "ok" });
+});
+
 app.use("/v1", v1Router);
 
 app.listen(config.api.port, () => {
