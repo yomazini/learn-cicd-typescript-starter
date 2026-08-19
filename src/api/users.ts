@@ -11,7 +11,6 @@ export async function handlerUsersCreate(req: Request, res: Response) {
     const apiKey = generateRandomSHA256Hash();
     const userId = uuidv4();
 
-    var x = 1; // on purpose to verify the gh-dash section
     await createUser({
       id: userId,
       createdAt: new Date().toISOString(),
