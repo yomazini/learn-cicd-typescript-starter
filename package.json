@@ -37,8 +37,12 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "drizzle-orm": "^0.45.2",
-    "express": "^4.21.1",
+    "express": "^4.21.2",
     "uuid": "^11.0.3"
+  },
+  "overrides": {
+    "path-to-regexp": "^0.1.12",
+    "ws": "^8.18.0"
   },
   "prettier": {
     "printWidth": 80,
